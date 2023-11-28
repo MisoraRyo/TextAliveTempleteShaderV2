@@ -1,6 +1,6 @@
-# TextAlive Templete Ver 0.1B
+# TextAlive Templete Ver 0.2B
 
-TextAlive APP開発用のベースプロジェクトファイル_Ver0.1B
+TextAlive APP開発用のベースプロジェクトファイル_Ver0.2B
 
 正常に実行するにはTextAliveのトークンが必要です。
 Three.jsのShaderを開発する用のテンプレート
