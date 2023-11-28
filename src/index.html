@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<title>TextaAlive LiveSever</title>
+<meta name="description" content="">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+<style>
+#gpu-text{
+    position: absolute;
+    top: 15px;left:20px;
+    z-index: 100;color: #eee;font-size: .5em;
+}
+#btn-area{
+    position: absolute;
+    display: flex;
+    top: 50px;left:20px;
+}
+#Play-Btn{
+    z-index: 100;
+    font-size: min(4vw, 2em);
+}
+#Stop-Btn{
+    z-index: 100;
+    font-size: min(4vw, 2em);
+}
+</style>
+</head>
+<body>
+
+    <!-- <audio id="audio" controls src="audio/xx.mp3" type="audio/mp3">水が流れる音</audio> -->
+
+    <div id="gpu-text"></div>
+    <div id="btn-area">
+        <button id="Play-Btn">PLAY</button>
+        <button id="Stop-Btn">STOP</button>
+    </div> 
+    <!--グラフィックス-->
+    <canvas id="MyCanvas"></canvas>
+</body>
+</html>
