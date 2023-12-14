@@ -1,4 +1,4 @@
-# TextAlive Templete Ver 0.2B
+# TextAlive Templete Ver 2.0B
 
 TextAlive APP開発用のベースプロジェクトファイル_Ver0.2B
 
