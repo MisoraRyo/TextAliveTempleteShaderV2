@@ -450,7 +450,7 @@ scene.add( plane );
 
 const clock = new THREE.Clock();
 
-function rendeLoop() {
+function renderLoop() {
 
     stats.begin();//stats計測
     const delta = clock.getDelta();//animation programs
@@ -463,11 +463,11 @@ function rendeLoop() {
 
     renderer.render(scene, camera) // render the scene using the camera
 
-    requestAnimationFrame(rendeLoop) //loop the render function
+    requestAnimationFrame(renderLoop) //loop the render function
     stats.end();//stats計測
 }
 
-rendeLoop() //start rendering
+renderLoop() //start rendering
 
 
 /////////////////////////////////////////////////////////////////////////
